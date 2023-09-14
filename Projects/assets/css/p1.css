@@ -1,0 +1,577 @@
+.banner{
+    overflow: hidden;
+    position: relative;
+}
+.banner>video{
+    width: 100%; 
+}
+.banner>.teju{
+    color: aliceblue;
+    width: 50%;
+   position: absolute;
+   top: 50%;
+   left: 5%;
+}
+.banner>.teju>h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.banner>.teju>h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.banner>.teju>p>span{
+    color: rgba(6, 240, 240, 0.641);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.banner>.teju>p{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.banner>.teju>button{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),rgb(221, 6, 6);
+    color: white;
+    width: 25%;
+    padding: 7px 12px;
+    border-radius: 40px;
+    height: 40px;
+    font-size: small;
+    font-weight: bold;
+    border: 0px;
+    outline: 2px solid rgb(221, 6, 6);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.banner>.teju>button:hover{
+    background: transparent;
+    color: aliceblue;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: rgba(243, 238, 238, 0.313);
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    width: 100%;
+    position: fixed;
+}
+header>nav>h1{
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 15px;
+    transition: 1s;
+}
+header>nav>ul>li>a{
+    color: aliceblue;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+header>nav>ul>li:hover{
+    transform: scale(1.2,1.2);
+}
+header>nav>h1{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    display: inline-block;
+    list-style-type: none;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.banner2{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/banner2.png)no-repeat center;
+    background-size: 100%;
+    height: 150vh;
+    text-align: center;
+}
+.banner2>.container{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.banner2>.container>.item{
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    flex: 1;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),rgb(221, 6, 6);
+    width: 8%;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+}
+.banner2>.container>.item:hover{
+    transform: scale(0.9,0.9);
+}
+.banner2>.container>.item>i{
+    color: rgba(244, 244, 7, 0.797);
+}
+.banner2>div{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.2) ;
+}
+.banner2>.container1>.card{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+}
+.banner2>.container1{
+    display: flex;
+    column-gap: 30px;
+    row-gap: 2px;
+    flex-flow: row wrap;
+    justify-content: end;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.banner2>.container1>.card>img{
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.banner2>.container1>.card:nth-child(2):hover{
+    opacity: 0.8;
+}
+.banner2>.container1>.card:nth-child(3):hover{
+    opacity: 0.8;
+}
+.banner2>.container1>.card:nth-child(4):hover{
+    opacity: 0.8;
+}
+.banner2>.container1>.card:nth-child(5):hover{
+    opacity: 0.8;
+}
+.banner2>.container1>.card[type=rr]{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    transition: 1s;
+    height: 320px;
+    width: 330px;
+ }
+ .banner2>.container1>.card[type=rr]:hover{
+     transform: translatex(20px);
+ }
+ .banner2>.container1>.card[type=rr]>button[id=r1]{
+    width: 80%;
+    border-radius: 40px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),rgb(221, 6, 6);
+     color: white;
+     height: 40px;
+     font-size: small;
+     font-weight: bold;
+     border: 0px;
+     outline: 2px solid rgb(221, 6, 6);
+     box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+     cursor: pointer;
+ }
+ .banner2>.container1>.card[type=rr]>button[id=r1]:hover{
+     background: transparent;
+     color: rgb(221, 6, 6);
+ }
+ .banner3{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/company2.png)no-repeat center;
+    background-size: 100%;
+    height: 103vh;
+}
+.banner3>.container2{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;  
+    padding-top: 115px;  
+}
+.banner3>.container2>.cont1{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+    justify-content: center;
+}
+.banner3>.container2>.cont1>.card1{
+  padding: 30px;
+ }
+ .banner3>.container2>.cont2>.card1{
+    padding: 30px;
+ }
+ .banner3>.container2>.cont2>.card1{
+     box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+     color: black;
+     border-radius: 15px;
+     background-color: white;
+     width: 550px;
+     height: 380px;
+     transition: 1s;
+ }
+ .banner3>.container2>.cont1>.card1:first-child{
+     width: 500px;
+     height: 150px;
+     color: aliceblue;
+     background: rgba(243, 238, 238, 0.211);
+     box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+ }
+ .banner3>.container2>.cont1>.card1:last-child{
+     width: 500px;
+     height: 150px;
+     color: aliceblue;
+     background: rgba(243, 238, 238, 0.211);
+     box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+     margin-bottom: 60px;
+ }
+ .banner3>.container2>.cont1>.card1>button[id=t1]{
+     width: 30%;
+     height: 30px;
+     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),rgb(221, 6, 6);
+     font-size: small;
+     font-weight: bold;
+     border: 0px;
+     outline: 2px solid rgb(221, 6, 6);
+     box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+     cursor: pointer;
+     padding: 7px 12px;
+     color: aliceblue;
+     border-radius: 30px;
+ }
+ .banner3>.container2>.cont1>.card1>button[id=t1]:hover{
+     background: transparent;
+ }
+ .banner3>.container2>.cont1>.card1>button[id=t2]{
+     width: 30%;
+     height: 30px;
+     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),orange;
+     font-size: small;
+     font-weight: bold;
+     border: 0px;
+     outline: 2px solid orange;
+     box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+     cursor: pointer;
+     padding: 7px 12px;
+     color: aliceblue;
+     border-radius: 30px;
+ }
+ .banner3>.container2>.cont1>.card1>button[id=t2]:hover{
+     background: transparent;
+ }
+ .banner3>.container2>.cont2>.card1>article>p>span{
+     color: rgba(135, 207, 235, 0.801);
+ }
+ .banner3>.container2>.cont2>.card1>article>p{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .banner3>.container2>.cont2>.card1:hover{
+      transform: translateY(50px);
+      background: rgba(243, 238, 238, 0.211);
+ }
+ .banner4{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/banner2.png)no-repeat center;
+    background-size: 100%;
+    height: 80vh;
+    padding: 63px;
+}
+.banner4>div{
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-bottom: 35px;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.4) ;
+}
+.banner4>.container3{
+    display: flex;
+    gap: 33px;
+    flex-flow: row nowrap;
+    justify-content: left;
+    padding-top: 40px;
+}
+.banner4>.container3>.card2{
+    background-color: white;
+    height: 325px;
+    width: 280px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+    transition: 1s;
+}
+.banner4>.container3>.card2>img{
+    width: 100%;
+    height: 160px;
+}
+.banner4>.container3>.card2>article{
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: rgba(0,0,0,0.1);
+}
+.banner4>.container3>.card2>article>img{
+    height: 20px;
+    width:50%;
+    float: left;
+}
+.banner4>.container3>.card2>article>p[id=re]{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.2);
+}
+.banner4>.container3>.card2:hover{
+    transform: scale(1.1,1.1);
+    border: 0px;
+    outline: 1px solid aliceblue;
+}
+.banner5{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/banner5.png)no-repeat center;
+    background-size: 100%;
+    height: 90vh;
+}
+.banner5>div{
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.banner5>.container4{
+    display: flex;
+    gap: 40px;
+    flex-flow: row nowrap;
+   justify-content: start;
+}
+.banner5>.container4>.con1{
+    display: flex;
+    gap: 40px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-top: 43px;
+   padding-left: 60px;
+}
+.banner5>.container4>.con2{
+    display: flex;
+    gap: 40px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-top: 86px;
+}
+.banner5>.container4>.con1>.card3:first-child{
+    height: 100px;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(243, 238, 238, 0.211);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+}
+.banner5>.container4>.con1>.card3:last-child{
+    height: 100px;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(243, 238, 238, 0.211);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+}
+.banner5>.container4>.con2>.card3:first-child{
+    height: 100px;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(243, 238, 238, 0.211);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+} 
+.banner5>.container4>.con2>.card3:last-child{
+    height: 100px;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(243, 238, 238, 0.211);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+}
+.banner5>.container4>.con3>.card3{
+    height: 370px;
+    width: 550px;
+    background: url(../images/mere.png)no-repeat center;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    border: 0px;
+    transition: 1s;
+}
+.banner5>.container4>.con3{
+    padding-left: 50px;
+}
+.banner5>.container4>.con3>.card3:hover{
+    outline: 1px solid aliceblue;
+    transform: scale(1.1,1.1);
+}
+.banner5>.container4>.con1>.card3{
+    transition: 1s;
+}
+.banner5>.container4>.con1>.card3[id=e1]:hover{
+    transform: scale(1.1,1.1);
+    border: 0px;
+    outline: 1px solid aliceblue;
+}
+.banner5>.container4>.con2>.card3{
+    transition: 1s;
+}
+.banner5>.container4>.con2>.card3[id=e1]:hover{
+    transform: scale(1.1,1.1);
+    border: 0px;
+    outline: 1px solid aliceblue;
+}
+.banner6{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/banner2.png)no-repeat center;
+    background-size: 100%;
+    height: 100vh;
+}
+.banner6>.container5{
+    display: flex;
+    gap: 48px;
+    flex-flow: row nowrap;
+    justify-content: start;
+    padding-left: 60px;
+}
+.banner6>.container5>.card4:first-child{
+    background: white;
+    height: 360px;
+    width: 880px;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 1s;
+    border: 0px;
+}
+.banner6>.container5>.card4:first-child form>input{
+    height: 10px;
+    width: 250px; 
+    border-radius: 30px;
+    padding: 10px;
+    background-color:rgba(245, 246, 248, 0.803); 
+    border: 1px solid aliceblue;
+}
+.banner6>.container5>.card4:first-child form>select{
+    height: 30px; 
+    width: 280px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgba(245, 246, 248, 0.803);
+     border: 1px solid aliceblue;
+}
+.banner6>.container5>.card4:first-child form>textarea{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(245, 246, 248, 0.803);
+    border: 1px solid aliceblue;
+    margin-top: 30px;
+    height: 150px;
+    width: 815px;
+}
+.banner6>.container5>.card4:last-child{
+    width: 205px;
+    height: 395px;
+    margin-top: 59px;
+    padding: 25px;
+    border-radius: 12px;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),rgb(221, 6, 6);
+    color: aliceblue;
+    text-shadow: rgba(0,0,0,0.4);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+    transition: 1s;
+    border: 0px;
+}.banner6>.container5>.card4:last-child:hover{
+    outline: 1px solid aliceblue;
+    transform: translateX(30px);
+    background: rgba(243, 238, 238, 0.211);
+}
+.banner6>.container5>.card4:first-child:hover{
+   transform: scale(1.04,1.04);
+   opacity: 0.9;
+}
+.banner6>.container5>.card4:last-child>article>p[id=w1]{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner6>.container5>.card4:last-child>article>p[id=w2]{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner6>.container5>.card4>button{
+    width: 30%;
+    height: 30px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),rgb(221, 6, 6);
+    font-size: small;
+    font-weight: bold;
+    border: 0px;
+    outline: 2px solid rgb(221, 6, 6);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+    padding: 7px 12px;
+    color: aliceblue;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner6>.container5>.card4>button:hover{
+    background: transparent;
+    outline: 2px solid rgb(221, 6, 6);
+    color: rgba(221,6,6);
+}
+.banner6>.container5>.card4{
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner6>.footer{
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 95px;
+}
